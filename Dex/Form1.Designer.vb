@@ -57,13 +57,13 @@ Partial Class Form1
         'NewToolStripMenuItem
         '
         Me.NewToolStripMenuItem.Name = "NewToolStripMenuItem"
-        Me.NewToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
+        Me.NewToolStripMenuItem.Size = New System.Drawing.Size(123, 26)
         Me.NewToolStripMenuItem.Text = "New"
         '
         'FileToolStripMenuItem
         '
         Me.FileToolStripMenuItem.Name = "FileToolStripMenuItem"
-        Me.FileToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
+        Me.FileToolStripMenuItem.Size = New System.Drawing.Size(123, 26)
         Me.FileToolStripMenuItem.Text = "Save"
         '
         'Field1
