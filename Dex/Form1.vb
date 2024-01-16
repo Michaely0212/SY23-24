@@ -46,6 +46,19 @@ Public Class Form1
                 idx = idx + 1
             End While
             inFile.Close()
+            showrecord(0)
+        End If
+    End Sub
+    Public Sub showrecord(index As Integer)
+        Dim fields() As String
+        fields = records(index).Split("|")
+        Field1.Text = fields(0)
+        Field2.Text = fields(1)
+        Field3.Text = fields(2)
+        Field4.Text = fields(3)
+        Field5.Text = fields(4)
+        If File.Exists(fields(5)) Then
+            PictureBox1.Load(fields(5))
         End If
     End Sub
 End Class
